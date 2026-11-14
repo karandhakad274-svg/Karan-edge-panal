@@ -23,10 +23,10 @@ jobs:
           gradle-version: 8.7
 
       - name: Build debug APK
-        working-directory: PhoneBooster
+        working-directory: karan edage panal-APK 
         run: gradle assembleDebug
 
       - uses: actions/upload-artifact@v4
         with:
           name: karan edage panal-APK
-          path: karan edge panal/app/build/outputs/apk/debug/*.apk
+          path: karan edage panal/app/build/outputs/apk/debug/*.apk
